@@ -1,0 +1,201 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li {
+	display: inline-block;
+	padding-left: 5px;
+}
+ul {
+	text-align: center;
+	padding: 0.1rem;
+}
+@media only screen and (max-width: 576px) {
+.container {
+	display: grid;
+
+	grid-template-columns: 1fr 1.2fr;
+	grid-template-rows: 1.2fr 0.5fr 1fr 600px 1fr 2fr 0.5fr;
+	grid-gap: 0.5rem;
+
+	/* grid-template-areas:
+		"alogo  alogo alogo alogo"
+		"anavbar anavbar atool atool "
+		"ahero ahero ahero ahero"
+		". aadds aadds ."
+		"acontent1 acontent1 acontent1 acontent1"
+		"afooter afooter afooter afooter"; */
+	grid-template-areas:
+		"  alogo alogo  "
+		"anavbar  atool "
+		"ahero ahero  "
+		" acontent1 acontent1 "
+		"aadds aadds "
+		"acontent2 acontent2"
+		"  afooter afooter";
+		}
+
+}
+
+/* @MEEEEEDIA 992 ?????? */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container :nth-child(odd) {
+	background: rgb(112, 192, 192);
+}
+.container :nth-child(even) {
+	background: rgb(230, 231, 143);
+} */
+
+/*  BACKgroundam different colors */
+.alogo {
+	grid-area: alogo;
+
+}
+.anavbar {
+	background: #2a3148;
+	grid-area: anavbar;
+}
+.atool {
+	background: #227093;
+	grid-area: atool;
+}
+.ahero {
+	background: #2a3148;
+	grid-area: ahero;
+}
+.asidebar {
+	background: rgb(196, 188, 115);
+	grid-area: asidebar;
+	display: none;
+}
+.aadds {
+	background: rgb(194, 183, 84);
+	grid-area: aadds;
+}
+
+.acontent1 {
+	background: rgb(145, 194, 190);
+	grid-area: acontent1;
+}
+.acontent2 {
+	background: rgb(36, 109, 104);
+	grid-area: acontent2;
+	background-color: #227093;
+}
+
+.afooter {
+	background: #2a3148;
+	grid-area: afooter;
+}
+
+.alogo {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	background: url(/Css/piptures/logotest.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.link1 a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 2rem;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-family: "Righteous", cursive;
+	padding: 10px 10px;
+	background-color: #227093;
+}
+
+.links a:hover {
+	background-color: #2898cc;
+	box-shadow: white 0px 0px 2px 4px;
+}
+.atool {
+	background-image: url(/Css/piptures/toolbox.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.ahero h1 {
+	text-align: center;
+	margin-top: 25px;
+	color: white;
+}
+.ahero p {
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+	font-size: 1.3rem;
+	padding: 10px 20px 10px 20px;
+}
+.acontent1 {
+	background-image: url(/Css/piptures/camp1.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-color: #227093;
+}
+.aadds {
+	background-image: url(/Css/piptures/Untitled.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-color: #227093;
+}
+.afoooter {
+	text-align: center;
+}
+.afooter p {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 1.5rem;
+	color: white;
+}
+.acontent2 h2 {
+	text-align: center;
+	margin-top: 30px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	font-size: 2.1rem;
+}
+.acontent2 p {
+	text-align: center;
+	margin-top: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 15px 15px;
+	color: white;
+	line height: 1.5rem;
+}
+/* 	@MEDIA 992 992 992 992 992 */
