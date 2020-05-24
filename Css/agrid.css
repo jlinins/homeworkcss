@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+li {
+	padding-left: 5px;
+	display: inline-block;
+}
+ul {
+	text-align: center;
+	padding: 0.1rem;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 2fr 1fr 0.3fr 0.5fr 1fr 0.3fr;
+	grid-gap: 0.5rem;
+	grid-template-areas:
+		"l l"
+		"nb t"
+		"h h"
+		"ht ht"
+		"a a"
+		"ad ad"
+		"al al"
+		"f f";
+}
+
+.logo {
+	grid-area: l;
+}
+.navbar {
+	background: #2a3148;
+	grid-area: nb;
+}
+.tools {
+	background: white;
+	grid-area: t;
+}
+.hero {
+	background: rgb(235, 220, 173);
+	grid-area: h;
+}
+.herotext {
+	background: #227093;
+	grid-area: ht;
+}
+.adds {
+	background: rgb(184, 181, 49);
+	grid-area: ad;
+}
+.article {
+	background: #227093;
+	grid-area: a;
+}
+.articlelist {
+	background: #227093;
+	grid-area: al;
+}
+.sidebar {
+	background: rgb(179, 41, 41);
+	grid-area: sb;
+	display: none;
+}
+.footer {
+	background: #2a3148;
+	grid-area: f;
+}
+/* <<<<<<<<<<< GRID AREAS END>>>>>>>>>>> */
+.logo {
+	background-image: url(/Css/piptures/logotest.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.link1 a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 2rem;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-family: "Righteous", cursive;
+	padding: 10px 10px;
+	background-color: #227093;
+}
+.links a:hover {
+	background-color: #2898cc;
+	box-shadow: white 0px 0px 2px 4px;
+}
+.tools {
+	background-image: url(/Css/piptures/toolbox.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.hero {
+	background-image: url(/Css/piptures/camp1.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-color: #227093;
+}
+.herotext h1 {
+	font-size: 2.5rem;
+	text-align: center;
+	margin-top: 25px;
+	color: white;
+}
+.herotext p {
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+	font-size: 1.3rem;
+	padding: 10px 20px 10px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.article h2 {
+	font-family: "Kaushan Script", cursive;
+	text-align: center;
+	color: white;
+	font-size: 2rem;
+	margin-top: 20px;
+}
+.adds {
+	background-image: url(/Css/piptures/add.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-color: #227093;
+}
+.articlelist p {
+	text-align: center;
+	margin-top: 30px;
+	padding: 10px 15px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.footer p {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 2rem;
+	color: #227093;
+}
+
+/* <<<<<<<MEDIA QUERIES TABLET>>>>>>>>>>>>>>*/
+@media (min-width: 576px) {
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1.7fr 1fr 0.5fr 0.3fr 0.5fr 0.5fr;
+		grid-gap: 0.5rem;
+		grid-template-areas:
+			"l nb t "
+			"h h h"
+			"ht ht ht"
+			"a a ad"
+			"al al al"
+			"sb sb sb"
+			"f f f";
+	}
+	.link1 a {
+		font-size: 3, 5rem;
+		margin-top: 30px;
+		padding: 20px 20px;
+	}
+	.sidebar {
+		background: #2a3148;
+		grid-area: sb;
+		display: inline-block;
+		text-align: center;
+	}
+	.link2 {
+		text-decoration: none;
+		display: inline-block;
+		color: #227093;
+		text-align: center;
+		text-decoration: none;
+		font-size: 2rem;
+		margin-top: 40px;
+		padding: 10px 10px;
+		background-color: white;
+		border-radius: 15px;
+	}
+	.sidebar a:hover {
+		background-color: #d1d7da;
+	}
+	.article h2 {
+		margin-top: 50px;
+		font-size: 2.3rem;
+	}
+	.articlelist p {
+		font-size: 1.2rem;
+	}
+}
+/* <<<<<<<MEDIA QUERIES PC>>>>>>>>>>>>>>*/
+@media (min-width: 992px) {
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 2fr 1fr 1fr;
+		grid-gap: 0.5rem;
+		grid-template-areas:
+			"l nb nb t "
+			"h h ht ad"
+			"a al al sb"
+			"f f f f";
+	}
+	.link1 a {
+		font-size: 3.5rem;
+		margin-top: 55px;
+		padding: 20px;
+	}
+	.article h2 {
+		font-size: 3.8rem;
+		margin-top: 60px;
+	}
+	.herotext h1 {
+		font-size: 3.5rem;
+		margin-top: 100px;
+		margin-bottom: 50px;
+	}
+	.herotext p {
+		font-size: 1.5rem;
+	}
+	.articlelist p {
+		font-size: 1.5rem;
+		margin-bottom: 20px;
+	}
+	.link2 {
+		margin-top: 150px;
+	}
+	.footer p {
+		margin-top: 100px;
+		font-size: 4.5rem;
+	}
+}

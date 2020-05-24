@@ -12,31 +12,30 @@ ul {
 	padding: 0.1rem;
 }
 @media only screen and (max-width: 576px) {
-.container {
-	display: grid;
+	.container {
+		display: grid;
 
-	grid-template-columns: 1fr 1.2fr;
-	grid-template-rows: 1.2fr 0.5fr 1fr 600px 1fr 2fr 0.5fr;
-	grid-gap: 0.5rem;
+		grid-template-columns: 1fr 1.2fr;
+		grid-template-rows: 1.2fr 0.5fr 1fr 600px 1fr 2fr 0.5fr;
+		grid-gap: 0.5rem;
 
-	/* grid-template-areas:
+		/* grid-template-areas:
 		"alogo  alogo alogo alogo"
 		"anavbar anavbar atool atool "
 		"ahero ahero ahero ahero"
 		". aadds aadds ."
 		"acontent1 acontent1 acontent1 acontent1"
 		"afooter afooter afooter afooter"; */
-	grid-template-areas:
-		"  alogo alogo  "
-		"anavbar  atool "
-		"ahero ahero  "
-		" acontent1 acontent1 "
-		"aadds aadds "
-		"acontent2 acontent2"
-		"  afooter afooter";
-		}
+		grid-template-areas:
+			"  alogo alogo  "
+			"anavbar  atool "
+			"ahero ahero  "
+			" acontent1 acontent1 "
+			"aadds aadds "
+			"acontent2 acontent2"
+			"  afooter afooter";
+	}
 }
-
 
 /* .container :nth-child(odd) {
 	background: rgb(112, 192, 192);
@@ -48,7 +47,6 @@ ul {
 /*  BACKgroundam different colors */
 .alogo {
 	grid-area: alogo;
-
 }
 .anavbar {
 	background: #2a3148;
@@ -140,11 +138,10 @@ ul {
 	background-color: #227093;
 }
 .aadds {
-	background-image: url(/Css/piptures/Untitled.png)
+	background-image: url(./piptures/add.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	background-color: #227093;
 }
 .afoooter {
 	text-align: center;
@@ -168,5 +165,4 @@ ul {
 	font-family: Arial, Helvetica, sans-serif;
 	padding: 15px 15px;
 	color: white;
-	line height: 1.5rem;
 }
