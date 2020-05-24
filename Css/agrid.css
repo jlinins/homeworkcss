@@ -69,7 +69,7 @@ ul {
 }
 /* <<<<<<<<<<< GRID AREAS END>>>>>>>>>>> */
 .logo {
-	background-image: url(Css/piptures/logotest.png);
+	background-image: url(/Css/piptures/logotest.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
