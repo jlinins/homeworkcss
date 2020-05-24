@@ -127,7 +127,7 @@ ul {
 	margin-top: 20px;
 }
 .adds {
-	background-image: url(./piptures/add.jpg);
+	background-image: url("./piptures/add.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
