@@ -12,7 +12,7 @@ ul {
 	padding: 0.1rem;
 }
 @media only screen and (max-width: 576px) {
-.container{
+.container {
 	display: grid;
 
 	grid-template-columns: 1fr 1.2fr;
@@ -90,7 +90,7 @@ ul {
 .alogo {
 	margin-top: 20px;
 	margin-bottom: 40px;
-	background: url(/Css/piptures/logotest.png);
+	background: url(./piptures/logotest.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -114,7 +114,7 @@ ul {
 	box-shadow: white 0px 0px 2px 4px;
 }
 .atool {
-	background-image: url(/Css/piptures/toolbox.jpg);
+	background-image: url(./piptures/toolbox.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -133,14 +133,14 @@ ul {
 	padding: 10px 20px 10px 20px;
 }
 .acontent1 {
-	background-image: url(/Css/piptures/camp1.jpg);
+	background-image: url(./piptures/camp1.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
 	background-color: #227093;
 }
 .aadds {
-	background-image: url(/Css/piptures/Untitled.png);
+	background-image: url(/Css/piptures/Untitled.png)
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
