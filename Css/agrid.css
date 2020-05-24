@@ -99,7 +99,7 @@ ul {
 	background-position: center;
 }
 .hero {
-	background-image: url("/Css/piptures/camp1.jpg");
+	background-image: url("./piptures/camp1.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
