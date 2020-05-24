@@ -202,7 +202,7 @@ ul {
 	.container {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-template-rows: 1fr 2fr 1fr 1fr;
+		grid-template-rows: 1fr 2fr 1fr 0.6fr;
 		grid-gap: 0.5rem;
 		grid-template-areas:
 			"l nb nb t "
@@ -212,7 +212,7 @@ ul {
 	}
 	.link1 a {
 		font-size: 3.5rem;
-		margin-top: 55px;
+		margin-top: 70px;
 		padding: 20px;
 	}
 	.article h2 {
