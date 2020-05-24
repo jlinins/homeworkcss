@@ -93,13 +93,13 @@ ul {
 	box-shadow: white 0px 0px 2px 4px;
 }
 .tools {
-	background-image: url(/Css/piptures/toolbox.jpg);
+	background-image: url("./piptures/toolbox.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
 }
 .hero {
-	background-image: url(/Css/piptures/camp1.jpg);
+	background-image: url("./piptures/camp1.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -127,7 +127,7 @@ ul {
 	margin-top: 20px;
 }
 .adds {
-	background-image: url(/Css/piptures/add.jpg);
+	background-image: url(./piptures/add.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
