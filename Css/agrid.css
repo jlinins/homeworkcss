@@ -99,11 +99,11 @@ ul {
 	background-position: center;
 }
 .hero {
-	background-image: url("/Css/piptures/camp1.jpg");
+	background-color: #227093;
+	background-image: url("./piptures/camp1.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
-	background-color: #227093;
 }
 .herotext h1 {
 	font-size: 2.5rem;
